@@ -1,0 +1,50 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --title-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+
+
+
+}
+
+
+.page {
+    background-color: #fff;
+    color: #757575;
+    ;
+}
+.site-nav .link {
+    color: var(--primary-text-color)
+    ;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+.site-nav .link .current {
+    color: var(--primary-text-color)
+}
+/* Hero */
+.hero-title { 
+    color: var(--title-text-color);
+    background-color:#2F303A;
+    ;
+}
+/* Наши сильные качества */
+.quality-list {
+    color: var(--secondary-text-color)
+}
+.title {
+    color: var(--primary-text-color);
+    ;
+}
+/* Examples */
+.img-title {
+    color: var(--primary-text-color);
+}
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
