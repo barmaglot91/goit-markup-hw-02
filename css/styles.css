@@ -269,6 +269,7 @@ letter-spacing: 0.06em;
 }
 
 .logo-footer {
+    color: var(--accent-color);
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
