@@ -16,8 +16,8 @@
 
 
 :root {
-    --primary-font-family: "Raleway", sans-serif;
-    --secondary-font-family: "Roboto", sans-serif;
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --primary-white-color: #FFFFFF;
@@ -55,14 +55,13 @@
 
 .page {
     background-color: var(--primary-white-color)
-    color: var(var(--secondary-text-color));
+    color: var(--secondary-text-color));
 }
 
 
 .site-nav .link {
         color: var(--primary-text-color)
 
-        font-family: Roboto;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -78,13 +77,9 @@
 }
 
 
-.mail-phone-contact :hover,
-.mail-phone-contact :focus {
-    color: var(--accent-color);
 
-}
 
-.mail {
+.mail-number {
     color: var(--secondary-text-color);
 
     font-family: Roboto;
@@ -95,7 +90,7 @@
     text-decoration: none;
 }
 
-.number {
+.mail-number {
     color: var(--secondary-text-color);
 
     font-family: Roboto;
@@ -105,8 +100,8 @@
     line-height: 1.14;
     text-decoration: none;
 }
-.mail :hover
-.mail :focus {
+.mail-number:hover,
+.mail-number:focus {
     color: var(--accent-color);
 }
 
@@ -181,7 +176,7 @@
 }
 
 /* Examples */
-.img-title {
+.service-title {
     color: var(--primary-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -201,7 +196,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 /* identical to box height, or 187% */
 
 display: flex;
@@ -210,8 +205,9 @@ text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
 }
-.button :hover,
-.button :focus {
+
+.button:hover,
+.button:focus {
     color: #188CE8;
 }
 
@@ -272,7 +268,6 @@ cursor: pointer;
 .logo-footer {
     color: var(--accent-color);
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -282,10 +277,8 @@ cursor: pointer;
     text-decoration: none;
 }
 .street-adress {
-    color: var(--primary-white-color);
-    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.7;
     /* or 171% */
@@ -296,9 +289,7 @@ cursor: pointer;
 }
 
 .contacts-footer {
-    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     /* or 171% */
@@ -327,11 +318,17 @@ cursor: pointer;
 }
 
 .buttons {
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
     cursor: pointer;
 }
 .name-pic {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -354,9 +351,10 @@ color: var(--secondary-text-color)
 }
 
 
-.button-list :hover,
-.button-list :focus {
-    color: #188CE8;
+.buttons:hover,
+.buttons:focus {
+    background-color: #188CE8;
+    color: #FFFFFF;
 }
 
 .site-nav .link.current {
