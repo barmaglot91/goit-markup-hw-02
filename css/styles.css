@@ -1,35 +1,13 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :root {
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Raleway", sans-serif;
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --primary-white-color: #FFFFFF;
-    --secondary-bcg-color: #2F303A;
+    --primary-bcg-color: #2F303A;
     --accent-color: #2196F3;
-}
-
-.body {
-    background-color: var(--primary-white-color);
-    color: var(--primary-white-color);
-
-    font-family: Roboto, sans-serif;
+    --secondary-accent-color: #188CE8;
+    --secondary-bcg-color: #F5F4FA;
 }
 
 /* Logo */
@@ -54,18 +32,18 @@
 }
 
 .page {
-    background-color: var(--primary-white-color)
-    color: var(--secondary-text-color));
+    background-color: var(--primary-white-color);
+    color: var(--secondary-text-color);
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 
 .site-nav .link {
-        color: var(--primary-text-color)
-
+        color: var(--primary-text-color);
         font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        tex
 }
 
 .site-nav .link.current {
@@ -76,30 +54,12 @@
     text-decoration: none;
 }
 
-
-
-
 .mail-number {
     color: var(--secondary-text-color);
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     text-decoration: none;
 }
 
-.mail-number {
-    color: var(--secondary-text-color);
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-}
 .mail-number:hover,
 .mail-number:focus {
     color: var(--accent-color);
@@ -116,14 +76,7 @@
 }
 
 .site-nav {
-    text-decoration: none;
-}
-.site-nav {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -131,22 +84,20 @@
 .list {
     list-style: none;
 }
+
 /* Hero */
 .hero-title { 
     color: var(--primary-white-color);
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 .hero {
-    background-color: var(--secondary-bcg-color)
+    background-color: var(--primary-bcg-color)
 }
 
 /* Наши сильные качества */
@@ -155,31 +106,19 @@
 }
 .title {
     color: var(--primary-text-color);
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .quality-list .text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
-
     letter-spacing: 0.03em;
 }
 
 /* Examples */
 .service-title {
     color: var(--primary-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -191,76 +130,54 @@
 .button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-/* identical to box height, or 187% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-    color: #188CE8;
+    color: var(--secondary-accent-color)
 }
 
 
 .our-team {
-    background-color: #F5F4FA;
-    text-decoration: none;
+    background-color: var(--secondary-bcg-color);
 
 }
 
 .team-title {
     color: var(--primary-text-color);
-    background-color: #F5F4FA;
-
-
-    font-family: Roboto;
-    font-style: normal;
+    background-color: var(--secondary-bcg-color);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .teammate {
     color: var(--primary-text-color);
-    background-color: #F5F4FA;
-
-    font-family: Roboto;
-    font-style: normal;
+    background-color: var(--secondary-bcg-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .position {
     color: var(--secondary-text-color);
-    background-color: #F5F4FA;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    background-color: var(--secondary-bcg-color);
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .footer {
-    background-color: var(--secondary-bcg-color)
+    background-color: var(--primary-bcg-color)
 
 
 }
@@ -271,18 +188,15 @@ cursor: pointer;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
-
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .street-adress {
     font-style: normal;
     color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
-
     letter-spacing: 0.03em;
     text-decoration: none;
 
@@ -292,8 +206,6 @@ cursor: pointer;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
-
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
@@ -306,57 +218,42 @@ cursor: pointer;
 
 
 /* Portfolio */
+
 .button-list {
     color: var(--primary-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /* identical to box height, or 162% */
     letter-spacing: 0.03em;
 }
 
 .buttons {
-font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
-
-text-align: center;
-letter-spacing: 0.03em;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
+
 .name-pic {
+    color: var(--primary-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
-
     letter-spacing: 0.06em;
 }
 
 .kind-bussines {
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-/* identical to box height, or 187% */
-
-letter-spacing: 0.03em;
-
-color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
-
 
 .buttons:hover,
 .buttons:focus {
-    background-color: #188CE8;
-    color: #FFFFFF;
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
+    background-color: var(--secondary-accent-color);
+    color: var(--primary-white-color);
 }
