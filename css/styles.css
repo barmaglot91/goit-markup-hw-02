@@ -109,6 +109,7 @@
     font-weight: bold;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .quality-list .text {
     font-size: 14px;
@@ -138,7 +139,7 @@
 
 .button:hover,
 .button:focus {
-    color: var(--secondary-accent-color)
+    background-color: var(--secondary-accent-color);
 }
 
 
@@ -228,7 +229,7 @@
 }
 
 .buttons {
-    font-family: Roboto;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
