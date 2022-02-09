@@ -253,6 +253,8 @@
     letter-spacing: 0.03em;
 }
 
+
+
 .buttons:hover,
 .buttons:focus {
     background-color: var(--secondary-accent-color);
