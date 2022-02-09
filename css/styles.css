@@ -253,7 +253,9 @@
     letter-spacing: 0.03em;
 }
 
-
+.links {
+    text-decoration: none;
+}
 
 .buttons:hover,
 .buttons:focus {
